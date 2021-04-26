@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/AjouterHotel.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/AjouterHotelController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Services/ServiceHotel.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/travel/Travel.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ShowHotelClientController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Utils/SendMail.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/FacceuilItem.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/ModifierHotel.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Utils/DataSource.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/AfficherHotel.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Utils/Mail.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Entities/Hotel.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/AjouterFacceuil.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/ShowFacceuilClient.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ModifierFacceuilController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Entities/Facceuil.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/HoteltemController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/FrontFacceuil.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/travel/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/FrontHotelController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ListViewHotel.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/DetailsFacceuilClient.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/AfficherHotelController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/FrontAcceuilController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/DetailsHotelClientController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ShowFacceuilClientController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/AjouterFacceuilController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/DetailsFacceuilClientController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ListViewFacceuil.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Services/ServiceFacceuil.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/AfficherFacceuil.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/AfficherFacceuilController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/FrontHotel.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/ShowHotelClient.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/DetailsHotelClient.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/HotelItem.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Guis/ModifierFacceuil.fxml</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/ModifierHotelController.java</file>
+            <file>file:/C:/Users/LENOVO/Documents/NetBeansProjects/Travel/src/Controllers/FacceuilIemController.java</file>
+        </group>
+    </open-files>
+</project-private>
