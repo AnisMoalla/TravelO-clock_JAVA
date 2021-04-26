@@ -1,0 +1,5 @@
+ID,user_id,pays,ville,image,tel,nom,type,heure_ouverture,heure_fermeture
+3,1,tunisie,sousse,file:/C:/Users/masso/Desktop/anglais/ace7071e-65ec-427f-b5a9-8e2fc1d125f8_200x200.png,232323,he,type,23:23:10,12:12:09
+4,1,italy,rome,file:/C:/Users/masso/Downloads/172688849_4083755291668554_114857473851443511_n.jpg,23232323,he,type,23:12:02,14:02:13
+6,1,tunisie,sfax,file:/D:/DD/Apps%20&%20pics/$.jpg,22222222,artisan,artisanat,07:00:00,16:00:00
+7,1,sousse,soss,file:/D:/DD/Apps%20&%20pics/680154aaa80ce9551b485bca59c4aa41.jpg,22222222,zsfze,artisanat,12:24:30,12:30:30
