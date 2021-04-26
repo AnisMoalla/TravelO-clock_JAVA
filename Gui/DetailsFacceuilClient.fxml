@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DetailsFacceuilClientController">
+   <children>
+      <Label layoutX="162.0" layoutY="38.0" text="Information Maison d'acceuil">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="136.0" text="Nom :" />
+      <Label layoutX="81.0" layoutY="304.0" text="Description" />
+      <Label layoutX="81.0" layoutY="247.0" text="Nombre de Chambre" />
+      <Label layoutX="81.0" layoutY="192.0" text="Adresse" />
+      <Label fx:id="nbrChmbre" layoutX="298.0" layoutY="247.0" text="Label" />
+      <Label fx:id="adresse" layoutX="300.0" layoutY="192.0" text="Label" />
+      <Label fx:id="nom" layoutX="300.0" layoutY="138.0" text="Label" />
+      <Label fx:id="Description" layoutX="300.0" layoutY="304.0" text="Label" />
+      <ImageView fx:id="img" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true" />
+      <Rating fx:id="rating" layoutX="162.0" layoutY="340.0" />
+      <Button layoutX="393.0" layoutY="344.0" mnemonicParsing="false" onAction="#voter" text="Voter" />
+   </children>
+</AnchorPane>
