@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="533.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.ControllerModifyUser">
+    <children>
+        <Label layoutX="55.0" layoutY="79.0" text="Nom :" />
+        <Label layoutX="320.0" layoutY="79.0" text="Prenom :" />
+        <Label layoutX="55.0" layoutY="179.0" text="Email :" />
+        <Label layoutX="317.0" layoutY="187.0" prefHeight="16.0" prefWidth="98.0" text="Password :" />
+        <Label layoutX="55.0" layoutY="287.0" text="Age : " />
+        <Label layoutX="320.0" layoutY="287.0" text="Numero : " />
+        <Button fx:id="backButton" layoutX="230.0" layoutY="482.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="257.0" text="back" />
+        <TextField fx:id="nomTextField" layoutX="116.0" layoutY="74.0" />
+        <TextField fx:id="prenomTextField" layoutX="446.0" layoutY="74.0" />
+        <TextField fx:id="emailTextField" layoutX="116.0" layoutY="174.0" />
+        <TextField fx:id="numeroTextField" layoutX="446.0" layoutY="282.0" />
+        <PasswordField fx:id="passwordField" layoutX="446.0" layoutY="182.0" />
+        <TextField fx:id="ageTextField" layoutX="116.0" layoutY="282.0" />
+      <Button fx:id="modifyButton" layoutX="403.0" layoutY="430.0" mnemonicParsing="false" onAction="#Modify" prefHeight="26.0" prefWidth="236.0" text="Modify" />
+      <Button fx:id="deleteButton" layoutX="84.0" layoutY="430.0" mnemonicParsing="false" onAction="#delete" prefHeight="26.0" prefWidth="236.0" text="Delete" />
+    </children>
+</AnchorPane>

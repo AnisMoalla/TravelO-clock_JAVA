@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="453.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.ControllerListUsers">
+   <children>
+      <TableView fx:id="tableView" layoutX="122.0" layoutY="27.0" onMouseClicked="#clicked" prefHeight="285.0" prefWidth="779.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nomColumn" prefWidth="108.0" text="nom" />
+            <TableColumn fx:id="prenomColumn" prefWidth="144.0" text="prenom" />
+            <TableColumn fx:id="emailColumn" prefWidth="122.0" text="Email" />
+            <TableColumn fx:id="ageColumn" prefWidth="133.0" text="Age" />
+            <TableColumn fx:id="numeroColumn" prefWidth="133.0" text="Numero" />
+        </columns>
+      </TableView>
+      <Button fx:id="logoutButton" layoutX="790.0" layoutY="406.0" mnemonicParsing="false" onAction="#Logout" prefHeight="26.0" prefWidth="131.0" text="Logout" />
+      <Button fx:id="stat" layoutX="144.0" layoutY="399.0" mnemonicParsing="false" onAction="#stat" prefHeight="26.0" prefWidth="153.0" text="stat" />
+   </children>
+</AnchorPane>
