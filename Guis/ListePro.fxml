@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/tableview.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerProm">
+    <children>
+        <TableView fx:id="tablePromotion" layoutY="110.0" onMouseClicked="#ConsulterProm" prefHeight="217.0" prefWidth="729.0">
+            <columns>
+
+                <TableColumn fx:id="user_id" prefWidth="75.0" text="user" />
+                <TableColumn fx:id="hotel_id" prefWidth="96.0" text="hotel" />
+                <TableColumn fx:id="nom" minWidth="0.0" prefWidth="100.0" text="nom" />
+                <TableColumn fx:id="pourcentage" minWidth="0.0" prefWidth="178.0" text="pourcentage" />
+                <TableColumn fx:id="date_debut" prefWidth="114.0" text="date_debut" />
+                <TableColumn fx:id="date_fin" prefWidth="90.0" text="date_fin" />
+            </columns>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+        </TableView>
+        <Label id="consulter_reclamation" layoutX="279.0" layoutY="33.0" prefHeight="38.0" prefWidth="172.0" text="Promotion_Hotel" textAlignment="CENTER" textFill="#111111">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+
+        <Button id="Button" fx:id="btnAjouterProm" layoutX="297.0" layoutY="344.0" mnemonicParsing="false" onAction="#AjouterProm" prefHeight="42.0" prefWidth="91.0" text="Ajouter" AnchorPane.leftAnchor="200.0" />
+        <Button id="Button" layoutX="418.0" layoutY="344.0" mnemonicParsing="false" onAction="#test" text="Statistique" AnchorPane.rightAnchor="200.0" />
+
+        <TextField fx:id="search" layoutX="112.0" layoutY="71.0" />
+      <Label layoutX="29.0" layoutY="75.0" text="Search" />
+    </children>
+
+</AnchorPane>

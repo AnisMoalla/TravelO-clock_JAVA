@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="805.0" prefWidth="1171.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerstatisticReclamation">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="70.0" layoutY="23.0" prefHeight="362.0" prefWidth="481.0" />
+      <BarChart fx:id="barChart" layoutX="667.0" layoutY="31.0" prefHeight="362.0" prefWidth="445.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="yAxis" side="LEFT" />
+         </yAxis>
+      </BarChart>
+      <Label fx:id="caption" layoutX="276.0" layoutY="196.0" />
+      <BarChart fx:id="barChart1" layoutX="355.0" layoutY="385.0" prefHeight="311.0" prefWidth="500.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button layoutX="44.0" layoutY="633.0" mnemonicParsing="false" onAction="#Back" text="Reclamation" />
+       <Button layoutX="44.0" layoutY="603.0" mnemonicParsing="false" onAction="#BackPro" text="Promotion" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="454.0" prefWidth="677.0" stylesheets="@../Styles/layoutstyles.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerAffPromFront">
+   <children>
+      <ScrollPane fx:id="scrol" layoutX="145.0" layoutY="104.0" prefHeight="324.0" prefWidth="657.0" styleClass="scrol" stylesheets="@../Styles/layoutstyles.css" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Label layoutX="222.0" layoutY="31.0" text="List Promotion" textFill="#2051f5">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+
+.root{
+    -fx-background-color: rgb(255.0, 255.0, 255.0);
+        -fx-background-radius: 4.0;
+        -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5);
+        -fx-padding: 16 16 16 16;
+        -fx-background-image: url("https://media.istockphoto.com/photos/old-wall-texture-cement-dark-black-gray-background-abstract-grey-picture-id1191995863?k=6&m=1191995863&s=612x612&w=0&h=mjIsCQMdK8XMkhhfHhSZ2cKHZnn9gFReNtQ6g5_yvgE=");
+}
+
+
+#pane {
+   -fx-background-image: url("https://media.istockphoto.com/vectors/abstract-gray-vector-background-vector-id1139888081?k=6&m=1139888081&s=612x612&w=0&h=logebqNuTPt0x32S4tL0cRxJH0elUz4KquFagNj6Ij8=");
+}
+
+.scrol {
+     -fx-table-cell-border-color: transparent;
+        -fx-effect: dropshadow( gaussian,rgba(0,0,0,0.16),5,0,0,2);
+        -fx-background-radius: 5px;
+        -fx-background-color: white;
+        -fx-background-insets: 0;
+}
+#titre {
+    -fx-text-fill: white;
+      -fx-border-radius: 4;
+      -fx-background-radius: 4px;
+      -fx-background-color:  #DD4B39;
+      -fx-font-weight:bold;
+      -fx-font-size:12px;
+      -fx-padding: 0 0 0 2;
+}
+#nom {
+    -fx-text-fill: red;
+      -fx-border-radius: 4;
+
+      -fx-background-color:  #6E4C00;
+      -fx-font-weight:bold;
+      -fx-font-size:20px;
+      -fx-padding: 0 0 0 2;
+}

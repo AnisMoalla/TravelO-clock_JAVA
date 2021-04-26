@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/formulaire.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerAjouter">
+   <children>
+      <TextArea id="description" fx:id="description" layoutX="91.0" layoutY="217.0" prefHeight="135.0" prefWidth="432.0" promptText="Description...." />
+      <RadioButton id="rb1" fx:id="rb1" layoutX="94.0" layoutY="95.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="187.0" selected="true" text="Insatisfaction liée au lieu">
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup></RadioButton>
+      <RadioButton id="rb2" fx:id="rb2" layoutX="94.0" layoutY="120.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="202.0" text="Mauvaise organisation" toggleGroup="$group" />
+      <RadioButton id="rb3" fx:id="rb3" layoutX="94.0" layoutY="142.0" mnemonicParsing="false" text="horaires de début non respecté" toggleGroup="$group" />
+      <RadioButton id="rb4" fx:id="rb4" layoutX="94.0" layoutY="167.0" mnemonicParsing="false" text="other" toggleGroup="$group" />
+      <Label layoutX="94.0" layoutY="192.0" text="Description" />
+      <Label layoutX="97.0" layoutY="64.0" text="Type de Reclamation" />
+      <Button fx:id="ajouter" layoutX="414.0" layoutY="361.0" mnemonicParsing="false" onAction="#Ajoutereclamation" prefHeight="25.0" prefWidth="111.0" text="Ajouter" />
+      <Button fx:id="btnBack" layoutX="91.0" layoutY="361.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Label id="consulter_reclamation" layoutX="190.0" layoutY="14.0" text="Ajouter Reclamation" />
+   </children>
+
+</AnchorPane>

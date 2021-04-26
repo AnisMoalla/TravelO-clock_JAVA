@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="729.0" stylesheets="@../Styles/tableview.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReclamationController">
+   <children>
+      <TableView fx:id="tableReclamation" layoutX="15.0" layoutY="110.0" onMouseClicked="#Consulter" prefHeight="217.0" prefWidth="664.0" stylesheets="@../Styles/tableview.css" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0">
+        <columns>
+          <TableColumn fx:id="user_id" prefWidth="75.0" text="user" />
+          <TableColumn fx:id="evenement_id" prefWidth="96.0" text="evenement" />
+            <TableColumn fx:id="date_reclamation" prefWidth="114.0" text="date_Reclamation" />
+            <TableColumn fx:id="descritpiontab" prefWidth="90.0" text="Description" />
+            <TableColumn fx:id="typeReclamation" minWidth="0.0" prefWidth="127.0" text="type de Reclamation" />
+            <TableColumn fx:id="etatReclamation" minWidth="0.0" prefWidth="71.0" text="Etat" />
+        </columns>
+      </TableView>
+      <Label id="consulter_reclamation" layoutX="225.0" layoutY="23.0" prefHeight="38.0" prefWidth="241.0" text="Reclamation_Evenement" textFill="#010103">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button id="Button" fx:id="btnAjouter" layoutX="225.0" layoutY="344.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="42.0" prefWidth="97.0" stylesheets="@../Styles/tableview.css" text="Ajouter" AnchorPane.leftAnchor="200.0" />
+       <TextField fx:id="search" layoutX="112.0" layoutY="71.0" />
+       <Label layoutX="29.0" layoutY="75.0" text="Search" />
+      <Button id="Button" layoutX="418.0" layoutY="344.0" mnemonicParsing="false" onAction="#test" text="Statistique" AnchorPane.rightAnchor="200.0" />
+   </children>
+</AnchorPane>
