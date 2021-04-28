@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="travelpidev.controller.FrontPlanController">
+   <children>
+      <BorderPane layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <left>
+            <AnchorPane prefHeight="0.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="test" layoutX="133.0" layoutY="57.0" prefHeight="446.0" prefWidth="233.0">
+                     <children>
+                        <TextField fx:id="txtTitire" prefHeight="25.0" prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <DatePicker fx:id="dateDebut" prefHeight="25.0" prefWidth="378.0">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </DatePicker>
+                        <DatePicker fx:id="dateFin" layoutX="10.0" layoutY="275.0" prefHeight="25.0" prefWidth="378.0">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </DatePicker>
+                        <ChoiceBox fx:id="optGuide" prefHeight="25.0" prefWidth="370.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#AddPlaningEvent" prefHeight="38.0" prefWidth="155.0" text="Add">
+                                 <HBox.margin>
+                                    <Insets left="30.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="14.0" layoutY="63.0" prefHeight="327.0" prefWidth="100.0">
+                     <children>
+                        <VBox prefHeight="500.0" prefWidth="100.0">
+                           <children>
+                              <Label text="titre">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </VBox.margin></Label>
+                              <Label text="date Debut" />
+                              <Label minHeight="60.0" text="Date Fin">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label layoutX="10.0" layoutY="61.0" text="Guide" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="600.0" prefWidth="369.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutX="1.0" layoutY="-1.0" prefHeight="600.0" prefWidth="397.0">
+                     <children>
+                        <ScrollPane prefHeight="597.0" prefWidth="397.0">
+                           <content>
+                              <VBox fx:id="show" prefHeight="605.0" prefWidth="394.0">
+                                 <children>
+                                    <StackPane fx:id="showw" prefHeight="608.0" prefWidth="394.0" />
+                                 </children></VBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
